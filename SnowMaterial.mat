@@ -72,15 +72,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TrailNormal:
-        m_Texture: {fileID: 2800000, guid: 666c9bbaa016db74084046954813a8a4, type: 3}
+        m_Texture: {fileID: 2800000, guid: 73b81d5d9d7c5ea47a7185000288e830, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TrailTexture:
-        m_Texture: {fileID: 2800000, guid: df539e9afca8a5d44a83326d032a246b, type: 3}
+        m_Texture: {fileID: 2800000, guid: dbb9fa30689ff8544aa9c8aab5ccf5d7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _BlurSize: 0.01
+    - _BlurSize: 0.02
     - _BumpScale: 1
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -99,11 +99,11 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _TrailBlendMaxBlend: 0.493
-    - _TrailGloss: 2
+    - _TrailBlendMaxBlend: 0.442
+    - _TrailGloss: 0.7
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TrailColor: {r: 0.82382524, g: 0.9122975, b: 0.9339623, a: 1}
+    - _TrailColor: {r: 0.8679245, g: 0.8679245, b: 0.8679245, a: 1}
