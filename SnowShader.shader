@@ -49,6 +49,7 @@
     //Has to be named as Input for a stupid reason
       struct Input{
         float2 uv_MainTexture;
+        float2 uv_TrailTexture;
         float2 uv_Noise;
         float3 worldNormal; INTERNAL_DATA 
         float3 viewDir;
@@ -75,8 +76,8 @@
 
           float3 normal = UnpackNormal(tex2D(_Normal,input.uv_MainTexture));
 
-          float4 trail_color = tex2D(_TrailTexture,input.uv_MainTexture);
-          float3 trail_normal = UnpackNormal(tex2D(_TrailNormal,input.uv_MainTexture));
+          float4 trail_color = tex2D(_TrailTexture,input.uv_TrailTexture);
+          float3 trail_normal = UnpackNormal(tex2D(_TrailNormal,input.uv_TrailTexture));
 
           float4 height_map= tex2D(_HeightMap,input.uv_MainTexture);
           float clamped_trail_blend = clamp(height_map.r,0,_TrailBlendMaxBlend);
